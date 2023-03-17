@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .button {
+            /* set display style to inline block */
+            display: inline-block; 
+            /* set padding */
+            padding: 10px 20px; 
+            /* set text color to white */
+            color: #fff;
+            /* remove underline */
+            text-decoration: none; 
+            /* add shadow effect */
+            box-shadow: 2px 2px 0 #ffa41c; 
+            /* round button edges */
+            border-radius: 6px; 
+            /* set font size */
+            font-size: 16px; 
+            /* set background color gradient */
+            background: linear-gradient(to bottom, #FFFDE7, #ff9c00);
+            /* set background color to orange */
+            background-color: #ff9c00; 
+            /* remove any background image */
+            background-image: none; 
+            /* add gradient background color for older versions of IE */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed74', endColorstr='#ff9c00', GradientType=0); 
+            /* set border */
+            border: 2px solid #E97451; 
+            /* set font weight to bold */
+            font-weight: bold; 
+            /* set font family */
+            font-family: 'Montserrat', sans-serif; 
+        }
+
+        /* styles applied when hovering over the button */
+        .button:hover {
+            /* remove shadow effect */
+            box-shadow: none; 
+            /* move button down 2 pixels */
+            transform: translateY(2px); 
+        }
+
+        /* styles applied when the button is being clicked */
+        .button:active {
+            /* add shadow effect inside button */
+            box-shadow: inset 2px 2px 0 #ffa41c; 
+            /* move button down 4 pixels */
+            transform: translateY(4px); 
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#" class="button">Download</a>
+</body>
+</html>
